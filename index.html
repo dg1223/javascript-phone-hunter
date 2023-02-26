@@ -18,7 +18,7 @@
     </header>
     <!-- display search result -->
     <section>
-      <div class="mb-3 w-50">
+      <div class="m-3 w-50">
         <input
           id="search-field"
           type="email"
@@ -26,7 +26,7 @@
           id="exampleFormControlInput1"
           placeholder="Search your phone"
         />
-        <div id="btn-search" class="btn btn-primary">Search</div>
+        <div id="btn-search" class="btn btn-primary mt-1">Search</div>
       </div>
 
       <!-- phone details -->
@@ -37,6 +37,9 @@
           id="phone-container"
           class="row row-cols-1 row-cols-md-3 g-4"
         ></div>
+        <div id="not-found-message" class="mt-4 d-none">
+          <h3 class="text-warning">No phone found. Please try a new search</h3>
+        </div>
       </section>
     </main>
 
